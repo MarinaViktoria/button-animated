@@ -57,8 +57,10 @@ img {
     }
 }
 }
-@media all and (max-width: 500px) {
-    img {
-        width: 10px
-    }
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	img {
+		max-width: 100%;
+		height: auto;
+		width: auto;
+	}
 }

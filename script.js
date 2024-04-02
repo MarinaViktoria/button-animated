@@ -10,3 +10,9 @@ function changeColor() {
         i = 0
     }
 }
+
+window.addEventListener('resize', function() {
+	document.querySelectorAll('img[srcset]').forEach(function(img) {
+		img.src += '';
+	});
+});
